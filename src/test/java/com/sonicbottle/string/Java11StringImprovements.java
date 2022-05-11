@@ -37,7 +37,7 @@ public class Java11StringImprovements {
        var output = "a\nA\nb\nB\nc\nC".lines()
                 .map(s -> s.charAt(0))
                 .filter(Character::isUpperCase)
-                .map(c -> c.toString())
+                .map(Object::toString)
                 .collect(Collectors.joining());
 
        System.out.println(output); // ABC

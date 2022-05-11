@@ -8,7 +8,6 @@ class Java11PredicateImprovements {
 
     Predicate<Integer> isDivisibleBy3 = n -> n % 3 == 0;
     Predicate<Integer> isDivisibleBy5 = n -> n % 5 == 0;
-
     @Test
     void test() {
         System.out.println(isDivisibleBy3.test(3));  // true
