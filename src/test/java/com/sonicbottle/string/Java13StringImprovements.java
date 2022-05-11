@@ -16,11 +16,24 @@ class Java13StringImprovements {
         var jsonExample =
                 """
                 {
-                    "name" : "Mahesh",
-                    "RollNO" : "32"
+                    "name" : "Bob",
+                    "studentNo" : 32
                  }        
                         
                 """;
         System.out.println(jsonExample);
+    }
+
+    @Test
+    void formattedTextBlocks() {
+        var testJson = """
+                        {
+                            "firstName": "%s",
+                            "studentNo": %d
+                        } 
+                        """;
+
+        System.out.println(testJson.formatted("Bob", 23));
+        System.out.println(testJson.formatted("Tim", 24));
     }
 }
