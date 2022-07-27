@@ -33,7 +33,10 @@ class Java13StringImprovements {
                         } 
                         """;
 
-        System.out.println(testJson.formatted("Bob", 23));
-        System.out.println(testJson.formatted("Tim", 24));
+        var bob=  testJson.formatted("Bob", 23);
+        var tim = testJson.formatted("Tim", 24);
+
+        System.out.println(bob);
+        System.out.println(tim);
     }
 }

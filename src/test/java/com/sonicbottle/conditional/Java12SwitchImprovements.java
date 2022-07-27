@@ -2,7 +2,7 @@ package com.sonicbottle.conditional;
 
 import org.junit.jupiter.api.Test;
 
-class Java11SwitchImprovements {
+class Java12SwitchImprovements {
 
     @Test
     void newSwitchStatement() {
