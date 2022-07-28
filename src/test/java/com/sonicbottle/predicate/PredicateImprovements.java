@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.function.Predicate;
 
-class Java11PredicateImprovements {
+class PredicateImprovements {
 
     Predicate<Integer> isDivisibleBy3 = n -> n % 3 == 0;
     Predicate<Integer> isDivisibleBy5 = n -> n % 5 == 0;

@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-class Java12NumberFormatting {
+class NumberFormatting {
 
     @Test
     void formatNumbersLong() {
